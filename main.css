@@ -1,0 +1,145 @@
+header {
+    background-image: url("https://lh3.googleusercontent.com/JDGY6-leuEo4JucSrxYJa3sCcIkdrCMf-ye5IPnAMePM7WAbiV3UUbv0sUTOmOA8Ywt7JyOIz_ZI7fUhRNbYLKkvdyNMbGx7OtDmWh-2D7KeNe6xwofSUh4t9AAkAvcM1KZqb09yssZp1PzeynFgFzR6ogViuC8bMOYX0dCJw00t_xGBXWVeKW5jXuYsuUCvcGEVlk-Jmlykg7X6NA5nSzTQBZPtb0RueD-NYj8PzRC6IZHKiTP8T18H6K6duKZJTsGp5Oo27ix8KFAWvpeGrxpDXcHxA-weS4Oz0IPZHccY1ODZ2j2K5qy53EayMhUx4g15kJIOElBgO61sUmwzINFV4UHKDsC8u73UcPbQCKPbRQuRoWzlruUEa01gd7iDgztPxWvKNAUWRKlHzdz4-YwesZ6qnI0NBbGlauTEGSZlnMRzevgVUD0ac3v2dCTdZ6rllLmR_sknlhoTuKeruMGeLTzdHbob1vSzDiHDIuKYnKBRjlgZ_kHuXyq7gSuzmRSTf1WKlapApa4uhYoobx9T8kjJ5Plt9C14fFJ95O4E0uITcO1EEiq3Ep38X1NVoB9aLkhT1LlfMy01v3hsqP2A1IruurrzP_hX9EEyrPnCWhmlCcGITDj1L2V_36kJVBZrgt4x21_DJrGORt6a9KBPFxcTsM_z=w2464-h1642-no");
+    background-position: 20% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    height: 550px;
+    opacity: 0.9; 
+    overflow: hidden; 
+}
+ 
+
+
+.navbar{
+    position: fixed;
+    border: 1px;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 96%;
+    height: 6%;
+    background-color: rgba(0,0,0, 0.3);
+}
+.navbar li{
+    float: right;
+    color: black;
+    margin: 10px;
+    white-space: nowrap;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover, a:active{
+    font-size: 2.5vh; 
+}
+.myname{
+    color: black;
+    position: fixed;
+    top: -1.5%;
+    left: 3%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+.aboutmetext {
+    margin: 0;
+}
+#aboutme{
+   font-size: 130%; 
+   background-color: #f2f2f2;
+   height: 38vh;
+   margin: 0;
+   font-family: 'Raleway', sans-serif;
+   text-align: center;
+   padding:24px;
+}
+
+.goal{
+    font-size: 130%; 
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    height: 250px;
+ }
+
+ #goalstext{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+ }
+
+ footer{
+    background-color: black;
+    background-position: 0% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    height: 200px;
+ }
+
+#facebook{
+    width: 60px;
+    position: absolute;
+    left: 37%;
+    top: 164%;
+}
+
+#linkedin{
+    width: 70px;
+    position: absolute;
+    left: 48%;
+    top: 164%; 
+}
+
+#twitter{
+    width: 70px;
+    position: absolute;
+    left: 61%;
+    top: 164%;  
+}
+
+#footertext{
+    color:white;
+    text-align:center;
+    position: absolute;
+    top: 151%;
+    left: 40%;
+    font-size: 45px;
+    font-family: 'Marck Script', cursive;
+}
+footer p{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: 41%;
+    top: 175%;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 600px){
+footer{  
+    display: none;
+}
+#aboutme{
+    font-size: 90%; 
+    height: 35vh;
+ }
+.goal{
+    font-size: 90%; 
+    height: 25vh;
+}
+.myname{
+ font-size: 8px;
+}
+.navbar a{
+    font-size: 8px;
+    padding: 3px;
+    
+}
+}
