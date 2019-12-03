@@ -1,0 +1,226 @@
+/**********BODY**********/
+body {
+    font-family: 'EB Garamond', serif;  
+}
+
+
+
+
+/**********HEADER**********/
+.header {
+    background-color: #40592E;
+    color: white;
+    font-size: 2.2rem;
+}
+
+header i {
+    font-size: 9rem;
+}
+
+.title {
+    color: #40592E;
+}
+
+
+/**********MAIN**********/
+html {
+    scroll-behavior: smooth;
+   }
+
+.boxes{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+img{
+    height: 67vh;
+    width: 32.1vw;
+    transition: .7s ease;
+}
+
+img:hover{
+    opacity: .5;
+}
+
+.overlay{
+    display: none;
+    margin-top: -20vw;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'EB Garamond', serif;
+}
+
+.text{
+    display: none;
+    text-align: center;
+}
+
+
+
+#box1:hover .overlay{
+    display: block;
+}
+
+#box1:hover .text{
+    display: block;
+}
+
+#box2:hover .overlay{
+    display: block;
+}
+
+#box2:hover .text{
+    display: block;
+}
+
+#box3:hover .overlay{
+    display: block;
+}
+
+#box3:hover .text{
+    display: block;
+}
+
+#box4:hover .overlay{
+    display: block;
+}
+
+#box4:hover .text{
+    display: block;
+}
+
+#box5:hover .overlay{
+    display: block;
+}
+
+#box5:hover .text{
+    display: block;
+}
+
+#box6:hover .overlay{
+    display: block;
+}
+
+#box6:hover .text{
+    display: block;
+}
+
+#box7:hover .overlay{
+    display: block;
+}
+
+#box7:hover .text{
+    display: block;
+}
+
+#box8:hover .overlay{
+    display: block;
+}
+
+#box8:hover .text{
+    display: block;
+}
+
+#box9:hover .overlay{
+    display: block;
+}
+
+#box9:hover .text{
+    display: block;
+}
+
+
+.blog{
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+   
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+
+.blogs {
+  background-color: #97A676;
+  margin-bottom: 4vw;
+}
+ hr{
+     margin: 5vw;
+ }
+
+.blog h1{
+    color:white;
+}
+
+.blog a:hover, .blog a:active{
+    text-decoration: none;
+  
+}
+
+
+
+.blog h1:hover, .blog h1:active {
+    color: black;
+}
+
+/**********FOOTER**********/
+.footer {
+    background-color: #40592E;
+    color: white;
+    font-size: 1.5rem;
+    /* height: 8vh; */
+}
+
+.footer i {
+    padding: 2.2vh 1vw;
+    color: white;
+}
+
+
+/**********MEDIA QUERIES**********/
+@media only screen and (max-width: 600px) {
+    /*****HEADER*****/
+    .header {
+        background-color: white;
+    }
+
+
+    .navbar-toggler {
+        background-color: #40592E;
+        margin-left: -5vw;
+    }
+
+    .navbar-toggler:focus {
+        background-color: #40592E;
+    }
+
+    .title {
+        margin: 0 13vw;
+        font-weight: normal;
+    }
+    /*****MAIN*****/
+
+     /*****FOOTER*****/
+     .footer .ig{
+         margin-left: 36vw;
+     }
+
+     .footer i {
+         padding: 0 2vw;
+     }
+
+  }
+
+  
+@media only screen and (max-width: 600px){
+    img{
+        width: 95vw;
+        height: 67vh;
+    }
+
+    .text{
+        font-size: 1em;
+    }
+
+}
