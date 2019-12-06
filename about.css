@@ -34,8 +34,9 @@
 @media only screen and (max-width: 600px) {
     /*****MAIN*****/
     .pic {
-        margin: 0 1rem;
+        margin: 0;
         height: 100vh;
+        width: 100vw;
     }
 
     .about-her h1, .about-her h2 {
