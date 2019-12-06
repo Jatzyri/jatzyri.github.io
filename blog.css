@@ -29,8 +29,8 @@ img:hover{
 }
 
 .text{
+    display: none;
     text-align: center;
-    color: white;
 }
 
 
