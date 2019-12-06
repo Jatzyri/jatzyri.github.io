@@ -1,0 +1,94 @@
+/**********BODY**********/
+body {
+    font-family: 'EB Garamond', serif;  
+}
+
+
+
+/**********HEADER**********/
+.header {
+    background-color: #40592E;
+    color: #40592E;
+    font-size: 2.5em;
+    color: white;
+    
+}
+
+.header i {
+    font-size: 3.2rem;
+    color: white;
+    margin: 2vw 1vw;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:active, .navbar-dark .navbar-nav .nav-link:hover {
+    color: grey;
+} 
+
+
+.title {
+    color: #40592E;
+}
+/**********FOOTER**********/
+.footer {
+    background-color: #40592E;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.footer i {
+    padding: 2.2vh 1vw;
+    color: white;
+}
+.ig i:active, .ig i:hover {
+    color: purple;
+}
+
+.tw i:active, .tw i:hover {
+    color: #00ACED;
+}
+
+.fb i:active, .fb i:hover {
+    color: #0C3BF7;
+}
+
+
+
+
+/**********MEDIA QUERIES**********/
+@media only screen and (max-width: 600px) {
+   
+    .header i {
+        display: none;
+    }
+
+    .navbar-toggler {
+        background-color: #517330;
+    }
+    .header {
+        color: white;
+    }
+
+    .header {
+        font-size: 1.5rem;
+    }
+
+   .title {
+       color: white; 
+      
+   }
+   
+
+     /*****FOOTER*****/
+     .footer .ig{
+         margin-left: 36vw;
+     }
+
+     .footer i {
+         padding: 0 2vw;
+     }
+ }

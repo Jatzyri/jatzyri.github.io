@@ -23,6 +23,7 @@
          You can create new classes and IDs, or add new rules for classes that already exist in Bootstrap. 
          Any rules you put in your custom stylesheet will override any styling applied to any elements of the same name in Bootstrap, as long as your custom stylesheet link comes AFTER your Bootstrap CSS link, the way it does here. -->
   <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="common.css">
 
 </head>
 
@@ -32,8 +33,8 @@
   <div class="container-fluid">
 
     <div class="row header ">
-        <i class="fas fa-globe-americas"></i>
-      <nav class="navbar navbar-expand-sm navbar-light color4">
+      <i class="fas fa-globe-americas"></i>
+      <nav class="navbar navbar-expand-sm navbar-dark color4">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content"
           aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,65 +43,71 @@
         <div class="collapse navbar-collapse" id="nav-content">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link home" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link color5" href="about.html">About Me</a>
+              <a class="nav-link " href="about.html">About Me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="blog.html">Blog</a>
             </li>
           </ul>
         </div>
+
+
       </nav>
+      <h1 class="title">Home</h1>
     </div>
 
     <div class="row pic">
       <!-- <img src="paraiso1.jpeg" class="img-fluid" alt="Responsive image"> -->
-    <div class="text">
+      <div class="text">
 
-      <h1>Global Gringa</h1>
-      <a href="blog.html"><i class="fas fa-map-marker-alt"></i></a>
-      <p><em>"So much of who we are is where we have been."</em></p>
+        <h1>Global Gringa</h1>
+        <a href="blog.html"><i class="fas fa-map-marker-alt"></i></a>
+        <p><em>"So much of who we are is where we have been."</em></p>
 
-    </div>
-    
+      </div>
+
     </div>
 
     <div class="row message">
       <div class="row col-lg-5 first">
-        <h2>¡Bienvenidos!</h2>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
-          nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-          aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
-          dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
-          vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
-          ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque
-          rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. </p>
+        <div class="bienvenidos">
+          <h2>Welcome!</h2>
+          <p>Hi, everyone! I have the pleasure of studying abroad in Cali, Colombia this semester and I created this
+            blog to document my adventures on a regular basis. I’ll be posting about my adventures, the food I eat, the
+            amazing places I visit, and the reality of living in Colombia as a foreigner. My goal is to persuade those
+            of you who are interested in studying abroad in a Latin American country to do it! Especially Colombia - but
+            I’m not biased. Stay tuned and enjoy!</p>
+
+        </div>
+
       </div>
-  
-  
+
+
       <div class="row col-lg-5 second">
-        <h2>Welcome!</h2>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
-          nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-          aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
-          dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
-          vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
-          ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque
-          rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. </p>
+        <div class="bienvenidos">
+          <h2>¡Bienvenidos!</h2>
+          <p>
+            ¡Hola a todos! Tengo el placer de estudiar en Cali, Colombia este semestre y creé este blog
+            para documentar mis aventuras regularmente. Publicaré sobre mis aventuras, la comida que como, los lugares
+            increíbles que visito y la realidad de vivir en Colombia como extranjera. Mi objetivo es animar a
+            aquellos de ustedes que estén interesados ​​en estudiar en un país latinoamericano! Especialmente Colombia,
+            pero no soy parcial. ¡Estén atentos y disfruten!
+          </p>
+        </div>
+
       </div>
-  
-  
-  
+
+
+
     </div>
-   
+
     <div class="row footer">
       <a class="ig" href="instagram.com"><i class="fab fa-instagram"></i></a>
-      <a href="twitter.com"><i class="fab fa-twitter"></i></a>
-      <a href="facebook.com"><i class="fab fa-facebook-f"></i></a>
+      <a class="tw" href="twitter.com"><i class="fab fa-twitter"></i></a>
+      <a class="fb" href="facebook.com"><i class="fab fa-facebook-f"></i></a>
     </div>
   </div>
 
