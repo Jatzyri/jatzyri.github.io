@@ -24,7 +24,9 @@
     margin-right: 6.5vw;
 }
 
-
+.nav-item a{
+    font-size: 2rem;
+ }
 
 /**********MEDIA QUERIES**********/
 
@@ -33,6 +35,7 @@
     /*****MAIN*****/
     .pic {
         margin: 0 1rem;
+        height: 100vh;
     }
 
     .about-her h1, .about-her h2 {

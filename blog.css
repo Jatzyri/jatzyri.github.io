@@ -34,7 +34,6 @@ img:hover{
 }
 
 
-
 #box1:hover .overlay{
     display: block;
 }
@@ -155,11 +154,12 @@ img:hover{
     color: white;
 }
 
+.nav-item a{
+    font-size: 2rem;
+ }
 
 /**********MEDIA QUERIES**********/
 @media only screen and (max-width: 600px) {
- 
-
 
      img{
         width: 69vw;
@@ -170,5 +170,13 @@ img:hover{
         font-size: 1em;
     }
 
+    
+    .overlay{
+        display:block;
+        color: white;
+    }
+    img:hover{
+        opacity: 1;
+    }
   }
 
