@@ -129,8 +129,9 @@ img:hover{
      margin: 5vw;
  }
 
-.blog h1{
+.blog h2{
     color:white;
+    font-size: 2.5rem;
 }
 
 
@@ -154,9 +155,6 @@ img:hover{
     color: white;
 }
 
-.nav-item a{
-    font-size: 2rem;
- }
 
 /**********MEDIA QUERIES**********/
 @media only screen and (max-width: 600px)  {
@@ -168,8 +166,10 @@ img:hover{
 
     .text{ 
         font-size: 1em;
-        color: rgb(255, 255, 255);
+
     }
+
+   
 
     #box9 {
         margin-bottom: 2rem;

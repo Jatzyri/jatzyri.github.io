@@ -1,0 +1,54 @@
+
+
+/**********MAIN**********/
+h2 {
+    text-align: center; 
+    margin-top: 2rem;
+    color:  #40592E;
+}
+
+hr {
+    background-color: #97A676;
+    width: 90vw;
+}
+.contact-form {
+    /* background-color: red; */
+    margin: 3rem 15rem;
+    /* width: 50vw; */
+    color:  #40592E;
+    /* background-color: red; */
+}
+
+.contact-form button{
+    color:  #40592E;
+    border-color:  #40592E;
+}
+
+.contact-form button:active, .contact-form button:hover {
+    border-color: #A6A6A6;
+    background-color: #A6A6A6;
+}
+
+
+img {
+    margin: 0 8rem;
+    border-radius: 100%;
+}
+
+
+
+/**********MEDIA QUERIES**********/
+
+
+@media only screen and (max-width: 600px) {
+    /*****MAIN*****/
+   .contact-form {
+       margin: 0;
+   }
+
+   .contact-form img {
+       margin-top: 2rem;
+       margin-bottom: 2rem;
+   }
+
+  }

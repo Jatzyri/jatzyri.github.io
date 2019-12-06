@@ -8,25 +8,24 @@
     font-family: 'EB Garamond', serif;   
 }
 
-.about-her h1 {
+.about-her h2 {
     color: #40592E;
     text-align: center;
     margin-left: 6.5vw;
     margin-right: 6.5vw;
-    margin-top: 8vw;
+    margin-top: 10vw;
+
 }
 
 
-.about-her h2 {
+.about-her h3 {
     color: #517330;
     text-align: center;
     margin-left: 6.5vw;
     margin-right: 6.5vw;
 }
 
-.nav-item a{
-    font-size: 2rem;
- }
+
 
 /**********MEDIA QUERIES**********/
 
