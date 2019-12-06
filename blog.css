@@ -159,19 +159,21 @@ img:hover{
  }
 
 /**********MEDIA QUERIES**********/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px)  {
 
      img{
         width: 69vw;
         height: 77vh;
     }
 
-    .text{
+    .text{ 
         font-size: 1em;
 
     }
 
-    
+    #box9 {
+        margin-bottom: 2rem;
+    }
     .overlay{
         display:block;
         color: white;
